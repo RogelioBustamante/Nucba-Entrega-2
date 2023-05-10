@@ -8,10 +8,7 @@
     
     
 }
-body {
-   /* background-color: black; */
-   
-}
+ 
 
 header { 
     border-radius: 10px;
@@ -36,7 +33,7 @@ header {
     
 .NavBar, .NavBarList {
     display: flex;
-    align-items: center);
+    align-items: center;
     justify-content: center;
     
     
@@ -89,9 +86,7 @@ header {
     font-weight: bold;
 }
 
-.Hero-Botones {
-    
-}
+   
  .botones {
     display: flex;
     gap: 120px;
