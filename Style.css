@@ -9,18 +9,22 @@
     
 }
 body {
-    background-color: black;
+   /* background-color: black; */
+   
 }
 
 header { 
-    background-color: rgb(146, 0, 0);
     border-radius: 10px;
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px 0px 10px;   
+    padding: 0px 20px 0px 10px;
+    background: #C9D6FF;  /* fallback for old browsers */
+    
+
+       
     
 
 }
@@ -39,15 +43,97 @@ header {
 }
 
 .NavBarList {
-    gap: 50px;
+    gap: 40px;
     
   
 }
 
 .NavBarList a {
     color: rgb(255, 241, 222);
-    font-size: 50px;
+    font-size: 30px;
     
 }
 
+#Hero {
+    margin-top: 35px;
+    max-width: 1200px;
+    padding: 0px 50px 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.Hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.Hero-info h1 {
+    font-size: 48px;
+    width: 100%;
+    min-width: 500px;
+    font-weight: 800;
+}
+
+.Hero-info p {
+    font-size: 16px;
+    width: 58%;
+    text-align: justify;
+    
+}
+.Hero-texto p > span {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.Hero-Botones {
+    
+}
+ .botones {
+    display: flex;
+    gap: 120px;
+    
+
+ }
+
+.botones a {
+    color: rgb(32, 21, 99);
+    background: #C9D6FF;  /* fallback for old browsers */
+    border-radius: 5px;
+    padding: 5px;
+    width: 110px;
+    height:30px
+    
+    
+}
+
+.Hero-imagen img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+  
+}
+
+#Text-info {
+    margin-top: 60px;
+    padding: 0px 50px 100px 50px;
+
+}
+
+#Text-info p {
+    text-align: left;
+    
+}
+#Text-info p > span {
+    font-weight: bold;
+
+}
+#Text-info li {
+    text-decoration: underline;
+}
 
