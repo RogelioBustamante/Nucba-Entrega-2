@@ -7,6 +7,7 @@
     <title>Entrega 2 - NavBar</title>
     <!--CSS-->
     <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +19,19 @@
         <img src="./Imagenes/Schanzuer 21.png" alt="LogoTienda" id="Logo"> 
         
         <nav class="NavBar">
+            <!--Agregamos el label con la imagnen del menu-->
+                <label for="menu-toggle" class="menu.label">
+                    <img src="./Imagenes/menu-icon.png" alt="menu.icon">
+                </label>
+
+            <!-- Input linkeado al label -->
+                <input type="checkbox" id="menu-toggle">
+
+
             <ul class="NavBarList">
-                <li><a href=""> Inicio</a></li>
-                <li><a href=""> Quienes somos</a></li>
-                <li><a href=""> Contacto </a></li>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="">Contacto </a></li>
                                 
             </ul>
             
@@ -32,7 +42,7 @@
             <div class="Hero-info">
                 <div class="Hero-texto">
                     <h1>Julio's Pet Shop</h1>
-                    <p>Somos la tienda de artículos para mascota <span>más completa</span> del país, contamos con todo lo que tu amigo 
+                    <p>Somos la tienda de artículos para mascotas<span>más completa</span> del país, contamos con todo lo que tu amigo 
                        de cuatro patas puede necesitar </p>
                 </div>
                 <div class="botones">
@@ -52,6 +62,47 @@
             <li>¡Además hacemos envíos a todo el país! </li>
             
         </section>
+        <section id="cards-section">
+            <h2>Más sobre nosotros</h2>
+            <div class="cards">
+                <div class="info-card">
+                    <img src="./Imagenes/petshop foto.jpg" alt="">
+                    <p>Tenemos todo lo que buscás para tu mascota, 
+                        articulos importados y de industria nacional al mejor precio. </p>
+                </div>
+                <div class="info-card">
+                    <img src="./Imagenes/peluqueria.jpg" alt="">
+                    <p>Contamos con servicio de peluqueria para que tu amigo se lleve 
+                        todas mas miradas.</p>
+                </div>
+                <div class="info-card">
+                    <img src="./Imagenes/Envios.jpg" alt="">
+                    <p>Hacemos envíos a todo el país mediante Mercado Envíos.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer id="Contactanos">
+            <div class="contactarnos-card">
+                <h2>Contactos</h2>
+                <div class="mapa">
+                    <img src="./Imagenes/mapa.jpg" alt="">
+                    <div class="Horarios-atencion">
+                        <p>Podes visitarnos en Av Colón XXXX en los siguientes horarios: 
+                        <div>
+                            <li>Lunes a viernes de 10 a 19hs</li> 
+                            <li>Sabados de 10 a 14 hs</li> 
+                             
+                        </div>
+                        <p>También podés hacer tu pedido al 351-XXXXXX</p>
+                    </div>
+                    </p>
+                    
+                </div>
+            </div>
+        </footer>
 
     </main>
     

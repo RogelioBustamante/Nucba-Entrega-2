@@ -1,0 +1,316 @@
+/* Tablet*/ 
+@media (min-width: 700px) and (max-width: 1020px) {
+    /*Hero Section*/ 
+    #Hero {
+        margin-left: 30px;
+    }
+    .Hero-texto {
+        width: 588px;
+    }
+
+    .botones {
+        gap: 0px;
+        width: 340px;
+        justify-content: space-between ;
+       
+    }
+
+    .NavBarList {
+        gap: 0px;
+
+    }
+
+    .NavBarList a {
+        font-size: 20px;
+    }
+
+    .NavBarList li {
+        width: 50%;
+    }
+    
+
+/*Card section */ 
+    .info-card { 
+        width: 200px;
+        height: 275px;
+        max-height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 5px;
+        gap: 1px;
+        border-radius: 10px;
+
+        }
+    .cards div > img {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .cards div > p {
+        font-size: 75%;
+        text-align: justify;
+        height: 55px;
+        width: 140px;
+
+    }
+
+    .cards {
+        gap: 5px;
+        flex-wrap: nowrap;
+        max-width: 100%;
+
+    }
+
+    
+ 
+}
+
+@media (max-width: 700px) {
+
+/*Hero Section*/
+#Hero { 
+    flex-direction: column-reverse;
+    margin-top: 0;
+    gap: 5px;
+    padding: 0px;
+}
+
+.Hero-info{
+    width: 550px;
+    margin-left: 50px;
+}
+
+.Hero-info h1 {
+    font-size: 30px;
+}
+
+.Hero-info p {
+    width: 160%;
+    text-align: justify;
+}
+
+.botones { 
+    flex-direction: column;
+    gap: 0px;
+}
+.Hero-texto {
+    width: 300px;
+}
+
+.Hero-imagen img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}    
+
+/*Text info section*/
+
+#Text-info{
+        padding: 1px;
+    }
+
+#Text-info p {
+        text-align: justify;
+    }
+
+/*Card section */ 
+
+.info-card {
+    max-width: 70%;
+    gap: 0;
+}
+
+.info-card img { 
+    width: 100px;
+    height: 100px;
+
+}
+
+.cards div > p {
+    text-align: justify;
+    height: 70px;
+    width: 170px;
+
+}
+   
+/*Seccion Contacto*/
+.contactarnos-card { 
+    max-width: 400px;
+    justify-content: center;
+   
+}
+.mapa {
+display: flex;
+flex-direction: column;
+background: #C9D6FF;
+border-radius: 15px;
+padding: 0px;
+
+    
+} 
+
+/*NavBar */
+
+.NavBarList {
+    position: absolute;
+    width: 50%;
+    top: 105px;
+    left: 7%;
+    flex-direction: column;
+    background: #C9D6FF;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 2;
+    display: none;
+
+
+}
+
+.NavBarList li {
+    width: 200px;
+}
+.NavBarList a {
+    font-size: 20px;
+}
+
+   /*Mostrar el icono e menu*/
+
+
+.menu.label,
+.NavBar img {
+    display: flex;
+    order: 2;
+    cursor: pointer;
+}
+
+#menu-toggle:checked + .NavBarList {
+    display: flex;
+}
+
+}
+
+@media (max-width: 480px) {
+
+    /*Hero Section*/
+    #Hero { 
+        flex-direction: column-reverse;
+        margin-top: 0;
+        gap: 5px;
+        padding: 0px;
+    }
+    
+    .Hero-info{
+        width: 300px;
+        margin-left: -80px;
+    }
+    
+    .Hero-info h1 {
+        font-size: 30px;
+    }
+    
+    .Hero-info p {
+        width: 120%;
+        text-align: justify;
+    }
+    
+    .botones { 
+        flex-direction: column;
+        gap: 0px;
+    }
+    .Hero-texto {
+        width: 300px;
+    }
+    
+    .Hero-imagen img {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }    
+    
+    /*Text info section*/
+    
+    #Text-info{
+            padding: 1px;
+        }
+    
+    #Text-info p {
+            text-align: justify;
+        }
+    
+    /*Card section */ 
+    
+    .info-card {
+        max-width: 70%;
+        gap: 0;
+    }
+    
+    .info-card img { 
+        width: 100px;
+        height: 100px;
+    
+    }
+    
+    .cards div > p {
+        text-align: justify;
+        height: 70px;
+        width: 170px;
+    
+    }
+       
+    /*Seccion Contacto*/
+    .contactarnos-card { 
+        max-width: 400px;
+        justify-content: center;
+       
+    }
+    .mapa {
+    display: flex;
+    flex-direction: column;
+    background: #C9D6FF;
+    border-radius: 15px;
+    padding: 0px;
+    
+        
+    } 
+    
+    /*NavBar */
+    
+    .NavBarList {
+        position: absolute;
+        width: 50%;
+        top: 105px;
+        left: 7%;
+        flex-direction: column;
+        background: #C9D6FF;
+        border-radius: 0px 0px 20px 20px;
+        z-index: 2;
+        display: none;
+    
+    
+    }
+    
+    .NavBarList li {
+        width: 200px;
+    }
+    .NavBarList a {
+        font-size: 20px;
+    }
+    
+       /*Mostrar el icono e menu*/
+    
+    
+    .menu.label,
+    .NavBar img {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+    
+    #menu-toggle:checked + .NavBarList {
+        display: flex;
+    }
+    
+    }
+

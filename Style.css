@@ -1,14 +1,16 @@
 *{
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    /*padding: 10px;*/
     box-sizing: border-box;
     font-family: 'Sen'; 
     text-decoration: none;
     list-style-type: none;
     
     
+    
 }
- 
+
+
 
 header { 
     border-radius: 10px;
@@ -19,17 +21,17 @@ header {
     align-items: center;
     padding: 0px 20px 0px 10px;
     background: #C9D6FF;  /* fallback for old browsers */
-    
-
-       
-    
-
 }
 
 #Logo {
     filter: drop-shadow( 10px 10px 10px rgb(63, 28, 28));
-    
+    z-index: 3;
+   
 }
+
+    
+
+
     
 .NavBar, .NavBarList {
     display: flex;
@@ -44,16 +46,19 @@ header {
     
   
 }
-
+.NavBarList li {
+    width: 150px;
+}
 .NavBarList a {
     color: rgb(255, 241, 222);
     font-size: 30px;
+    
     
 }
 
 #Hero {
     margin-top: 35px;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     padding: 0px 50px 100px 50px;
     display: flex;
     justify-content: center;
@@ -130,5 +135,137 @@ header {
 }
 #Text-info li {
     text-decoration: underline;
+}
+
+
+/* Seccion Cards */ 
+
+#cards-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    /*max-width: 1200px;*/
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+       
+}
+
+#cards-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.info-card { 
+    width: 300px;
+    height: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #C9D6FF;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+   
+      
+}
+.cards div > img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+   
+    
+} /* Tamaño de las imagenes deSeccion Cards*/
+
+.cards div > p {
+    font-size: 80%;
+    text-align: justify;
+    height: 40px;
+    width: 250px;
+} /* Tamaño del texto y contenedor del texto de Seccion Cards*/
+
+/*Seccion Contacto*/
+
+#Contactanos {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    /*max-width: 1200px;*/
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.contactarnos-card {
+    padding: 50px;
+    text-align: center;
+
+    
+}   
+
+.mapa {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #C9D6FF;
+    border-radius: 15px;
+    padding: 30px 50px;
+}
+
+.mapa img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 15px;
+        
+}
+
+ 
+.Horarios-atencion {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+                
+
+}
+.Horarios-atencion p, li {
+    font-size: 80%;
+    text-align: justify;
+}
+
+.Horarios-atencion li {
+    margin-left: 10px;
+    list-style-type: disc;
+}    
+    
+#menu-toggle{
+    display: none
+}
+
+.NavBar img {
+    display: none;
+    height: 75%;
+    width: 75%;
+    
+       
+} 
+.NavBar img {
+    margin-left: 50px;
+    width: 50%;
 }
 
