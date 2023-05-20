@@ -5,7 +5,8 @@
     font-family: 'Sen'; 
     text-decoration: none;
     list-style-type: none;
-    background-color: antiquewhite;
+    background-color:transparent;
+    
     
     
     
@@ -51,7 +52,7 @@ header {
     width: 150px;
 }
 .NavBarList a {
-    color: rgb(255, 241, 222);
+    color: white;
     font-size: 30px;
     
     
